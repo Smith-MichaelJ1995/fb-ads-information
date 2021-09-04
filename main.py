@@ -7,26 +7,57 @@ deletedAdvertisers = []
 
 # create placeholder for target keywords
 keywords = {
-    "Home-Repair": ["Roofing"],
-    "Health": [],
+    "Home-Repair": [],
+    "Health": ["Medicine", "Wellness"],
     "Food-Beverage": [],
     "Software": [],
-    "Merchandise": [],
-    "Insurance": [],
-    "Interest-Group": ["The New York Times"],
-    "Entertainment": [
-        "Pittsburgh Steelers"
+    "Financial": [],
+    "Merchandise": [
+       "The 12ish Style",
+       "The Bar Method",
+       "The Beautiful Circus",
+       "The Beliveau Group of EXP Realty",
+       "THE COLLECTION",
+       "The Coloradoan",
+       "The Commercial Appeal",
+       "The Dental Lounge",
+       "The Des Moines Register",
+       "The Dodo",
+       "The Drop, exclusive to Amazon",
+       "The Excellence Collection",
+       "The FM Test",
+       "The Fund for American Studies (TFAS)",
+       "The Gardens at Winsted Skilled Nursing & Assisted Living",
+       "The Good Fight",
+       "The Greens at Pinehurst Rehabilitation & Living Center",
+       "The Groves",
+       "The Healey Pre-Owned Network",
+       "The Heritage Foundation",
+       "The Home Depot",
+       "The Jackson Hive",
+       "The Leukemia & Lymphoma Society",
+       "the love designed life",
+       "The Mortgageman",
+       "The Niello Company",
+       "The North Face",
+       "The Novak Team at Keller Williams PNW",
+       "The Post-Crescent (Appleton-Fox Cities, Wisconsin)",
+       "The Reeds at Shelter Haven",
+       "The River's Edge of Oakmont",
+       "The Seeing Eye, Inc.",
+       "The Suburban Collection",
+       "The Superhero Teacher's Resources",
+       "The Sweet Mama Life.",
+       "The True Spoon",
+       "The Voter Participation Center",
+       "The Waterview Woods",
+       "The Woodlands Hills",
     ],
+    "Insurance": [],
+    "Interest-Group": [],
+    "Entertainment": ["Gossip"],
     "Auto-Retail": []
 }
-
-
-###
-###
-
-
-
-
 
 def filterIntoBucket(advertiser):
 
@@ -76,6 +107,18 @@ def filterIntoBucket(advertiser):
             results["Software"].append(advertiser)
             deletedAdvertisers.append(advertiser)
             print("{} Sorted Into 'Software'".format(advertiser))
+            return
+
+    # CHECK "Financial"
+    for word in keywords["Financial"]:
+
+        # determine if advertiser is of type auto
+        if word.lower() in advertiser.lower(): 
+
+            # append result to Financial section 
+            results["Financial"].append(advertiser)
+            deletedAdvertisers.append(advertiser)
+            print("{} Sorted Into 'Financial'".format(advertiser))
             return
     
     # CHECK "Merchandise"
@@ -138,27 +181,41 @@ def filterIntoBucket(advertiser):
             print("{} Sorted Into 'Auto-Retail'".format(advertiser))
             return
 
+runningTotal = 0
 
 # traverse through all records
-for advertiser in remaining:
+# for category in results.keys():
     
+#     # traverse through all results
+#     categoryTotal = len(results[category])
+
+#     print("Total For Category '{}': {}".format(category, categoryTotal))
+
+#     runningTotal += categoryTotal
+
+# process all remaining advertisers
+for advertiser in remaining:
+
     # pass into filterBucket Function
     filterIntoBucket(advertiser)
 
+
+#print("Total Advertisers = {}".format(runningTotal))
+#print("Total Remaining Advertisers = {}".format(remaining))
 
 # show remaining advertisers before
 print("Advertisers Before: {}".format(len(remaining)))
 
 # scratch all advertisers from results
 for deletedAdvertiser in deletedAdvertisers:
-    remaining.remove(deletedAdvertiser)
+   remaining.remove(deletedAdvertiser)
 
 # show remaining advertisers after
 print("Advertisers After: {}".format(len(remaining)))
 
 # write file to filesyste,
 with open('results.json', 'w') as convert_file: 
-    convert_file.write(json.dumps(results, indent=3))
+   convert_file.write(json.dumps(results, indent=3))
 
 # write file to filesyste,
 with open('remaining.json', 'w') as convert_file: 

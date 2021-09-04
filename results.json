@@ -34,7 +34,8 @@
       "Burton AC Heating Plumbing & More",
       "Leone Plumbing & Heating",
       "Paul Bunyan Plumbing  & Drains",
-      "The Homestead Roofing Co."
+      "The Homestead Roofing Co.",
+      "Golden Knots Rug Cleaning"
    ],
    "Health": [
       "1-800 Contacts",
@@ -120,7 +121,17 @@
       "UnitedHealthcare Community Plan",
       "University Park Rehabilitation and Healthcare Center",
       "B2fitness",
-      "Basecamp Fitness"
+      "Basecamp Fitness",
+      "Gold's Gym Virginia",
+      "Gym Source",
+      "Be Vital Wellness, LLC",
+      "De Leon Family Wellness",
+      "Gateway Rehab & Wellness Center",
+      "Integrated Physical Medicine",
+      "Keystone Physical Medicine",
+      "Loebig Wellness",
+      "Revolution Wellness",
+      "Summit Spine and Wellness"
    ],
    "Food-Beverage": [
       "7-Eleven",
@@ -149,7 +160,15 @@
       "Green Mountain Coffee Roasters",
       "Peet's Coffee",
       "Kroger",
-      "Michael Angelo\u00e2\u0080\u0099s Frozen Italian Meals"
+      "Michael Angelo\u00e2\u0080\u0099s Frozen Italian Meals",
+      "Subway",
+      "Sunkist Soda",
+      "SunChips",
+      "Taco Bell",
+      "Gatorade",
+      "Good Eggs",
+      "Gold Peak Tea",
+      "Grubhub"
    ],
    "Software": [
       "adjust.com",
@@ -168,29 +187,25 @@
       "Adobe Acrobat",
       "Apollo Graphql",
       "Atlantic Broadband",
-      "Blue Financial",
-      "DFCU Financial",
-      "E*TRADE Financial",
-      "Gentz Financial Services, Inc.",
-      "Institute of Financial Wellness",
-      "Principal Financial Group",
-      "Securian Financial",
-      "Warren Financial",
       "Dropbox",
-      "Bremer Bank",
-      "City National Bank",
-      "Columbia Bank",
-      "Credit One Bank",
-      "First Republic Bank",
-      "Firstrust Bank",
-      "Fisher Investments",
-      "Gulf Capital Bank",
-      "Homie Loans",
       "Instacart",
       "Intel",
-      "Nevada State Bank",
-      "Northwest Bank",
       "Quantexa - Contextual Decision Intelligence",
+      "Pluralsight",
+      "Quora",
+      "Service Credit Union",
+      "Uber",
+      "Courtneynwilliams.com",
+      "DiscountFilters.com",
+      "Hawaii \u00e2\u0080\u0093 gohawaii.com",
+      "NorthJersey.com",
+      "Overstock Vehicles.com",
+      "Surprise.com",
+      "Top10.com - Home Warranty",
+      "Vacationvip.com",
+      "Way.com"
+   ],
+   "Financial": [
       "Regions Bank",
       "TBK Bank",
       "The Callaway Bank",
@@ -200,12 +215,28 @@
       "Lee Credit Express",
       "Personal Capital",
       "Pinal County Federal Credit Union",
-      "Pluralsight",
+      "University Federal Credit Union",
       "PNC",
-      "Quora",
-      "Service Credit Union",
-      "Uber",
-      "University Federal Credit Union"
+      "Nevada State Bank",
+      "Northwest Bank",
+      "Bremer Bank",
+      "City National Bank",
+      "Columbia Bank",
+      "Credit One Bank",
+      "First Republic Bank",
+      "Firstrust Bank",
+      "Fisher Investments",
+      "Gulf Capital Bank",
+      "Homie Loans",
+      "Blue Financial",
+      "DFCU Financial",
+      "E*TRADE Financial",
+      "Gentz Financial Services, Inc.",
+      "Institute of Financial Wellness",
+      "Principal Financial Group",
+      "Securian Financial",
+      "Warren Financial",
+      "KeyBank"
    ],
    "Merchandise": [
       "Aerie",
@@ -267,7 +298,16 @@
       "PURELL",
       "Redwood Harley-Davidson",
       "Reno Harley-Davidson",
-      "Your treasure human hair"
+      "Your treasure human hair",
+      "T-Mobile",
+      "T-Mobile for Business",
+      "Great Clips",
+      "Death Valley Harley-Davidson",
+      "Harley-Davidson of Yuba City",
+      "Hawaiian Airlines",
+      "Hefty",
+      "Redwood Harley-Davidson",
+      "Reno Harley-Davidson"
    ],
    "Insurance": [
       "Allstate",
@@ -299,7 +339,13 @@
       "RGJ  Reno Gazette Journal",
       "ReformJudaism.org",
       "ReformJudaism.org",
-      "The New York Times"
+      "The New York Times",
+      "Knoxville News Sentinel",
+      "Naples Daily News",
+      "The Greenville News",
+      "The News-Press (Fort Myers and Cape Coral)",
+      "Birthright Israel Foundation",
+      "Taglit-Birthright Israel"
    ],
    "Entertainment": [
       "Academy Sports + Outdoors",
@@ -338,7 +384,9 @@
       "Pittsburgh Steelers on Fanatics",
       "Pittsburgh Steelers on FansEdge",
       "Pittsburgh Steelers on Fanatics",
-      "Pittsburgh Steelers on FansEdge"
+      "Pittsburgh Steelers on FansEdge",
+      "T-Pain",
+      "Gossip Girl"
    ],
    "Auto-Retail": [
       "1st Kia of Simi Valley",
@@ -2335,6 +2383,11 @@
       "Ultimo Motors",
       "White's Mountain Motors",
       "Fat Tire",
-      "FC Kerbeck Rolls-Royce"
+      "FC Kerbeck Rolls-Royce",
+      "Genesis of Denville",
+      "Genesis of Norman",
+      "Genesis of Plano",
+      "Genesis Santa Monica",
+      "Genesis USA"
    ]
 }

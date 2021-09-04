@@ -7,16 +7,26 @@ deletedAdvertisers = []
 
 # create placeholder for target keywords
 keywords = {
-    "Home-Repair": [],
-    "Health": ["Chiro"],
+    "Home-Repair": ["Roofing"],
+    "Health": [],
     "Food-Beverage": [],
     "Software": [],
     "Merchandise": [],
     "Insurance": [],
-    "Interest-Group": [],
-    "Entertainment": [],
+    "Interest-Group": ["The New York Times"],
+    "Entertainment": [
+        "Pittsburgh Steelers"
+    ],
     "Auto-Retail": []
 }
+
+
+###
+###
+
+
+
+
 
 def filterIntoBucket(advertiser):
 
@@ -148,10 +158,10 @@ print("Advertisers After: {}".format(len(remaining)))
 
 # write file to filesyste,
 with open('results.json', 'w') as convert_file: 
-    convert_file.write(json.dumps(results))
+    convert_file.write(json.dumps(results, indent=3))
 
 # write file to filesyste,
 with open('remaining.json', 'w') as convert_file: 
-    convert_file.write(json.dumps(remaining))
+    convert_file.write(json.dumps(remaining, indent=3))
 
 

@@ -184,41 +184,71 @@ def filterIntoBucket(advertiser):
 runningTotal = 0
 
 # traverse through all records
-# for category in results.keys():
+for category in results.keys():
     
-#     # traverse through all results
-#     categoryTotal = len(results[category])
+    # traverse through all results
+    categoryTotal = len(results[category])
 
-#     print("Total For Category '{}': {}".format(category, categoryTotal))
-
-#     runningTotal += categoryTotal
+    print("Total For Category '{}': {}".format(category, categoryTotal))
+    runningTotal += categoryTotal
 
 # process all remaining advertisers
-for advertiser in remaining:
+# for advertiser in remaining:
 
-    # pass into filterBucket Function
-    filterIntoBucket(advertiser)
+#     # pass into filterBucket Function
+#     filterIntoBucket(advertiser)
 
 
-#print("Total Advertisers = {}".format(runningTotal))
-#print("Total Remaining Advertisers = {}".format(remaining))
+print("Total Advertisers Accounted For = {}".format((runningTotal)))
+print("Total Remaining Advertisers = {}".format(len(remaining)))
+
+# FINAL (ABRIGDED) COUNTS:
+# 'Home-Repair': 36  36/371 = 0.09; (0.09 x 853) = 77; 77 + 36 = 113
+# 'Health': 94   94/371 = 0.25; (0.25 x 853) = 216; 216 + 94 = 310
+# 'Food-Beverage': 35   35/371 = (0.09 x 853) = 77; 77 + 35 =  112
+# 'Software': 33    33/371 = (0.09 x 853) = 77; 77 + 33 = 111
+# 'Financial': 31   31/371 = (0.08 x 853) = 68; 68 + 31 = 99
+# 'Merchandise': 69  69/371 = (0.18 x 853) = 158; 158 + 69 = 227
+# 'Insurance': 5    5/371 = (0.01 x 853) = 12; 5 + 12 = 17
+# 'Interest-Group': 29   29/371 = (0.07 x 853) = 67; 67 + 29 = 96
+# 'Entertainment': 39   39/371 = (0.10 x 853) = 86; 86 + 39 = 125 
+# 'Auto-Retail': 2000
+#Total Advertisers Accounted For = 2371
+#Total Remaining Advertisers = 853
+
+
+
+'Home-Repair': 113
+'Health': 310
+'Food-Beverage': 112
+'Software': 111
+'Financial': 99
+'Merchandise': 227
+'Insurance': 17
+'Interest-Group': 96
+'Entertainment': 125
+'Auto-Retail': 2000
+
+Results = 3210
+
+
 
 # show remaining advertisers before
-print("Advertisers Before: {}".format(len(remaining)))
+#print("Advertisers Before: {}".format(len(remaining)))
 
 # scratch all advertisers from results
-for deletedAdvertiser in deletedAdvertisers:
-   remaining.remove(deletedAdvertiser)
+#for deletedAdvertiser in deletedAdvertisers:
+#   remaining.remove(deletedAdvertiser)
 
 # show remaining advertisers after
-print("Advertisers After: {}".format(len(remaining)))
+# print("Advertisers After: {}".format(len(remaining)))
 
 # write file to filesyste,
-with open('results.json', 'w') as convert_file: 
-   convert_file.write(json.dumps(results, indent=3))
+# with open('results.json', 'w') as convert_file: 
+#   convert_file.write(json.dumps(results, indent=3))
 
 # write file to filesyste,
-with open('remaining.json', 'w') as convert_file: 
-    convert_file.write(json.dumps(remaining, indent=3))
+# with open('remaining.json', 'w') as convert_file: 
+#    convert_file.write(json.dumps(remaining, indent=3))
 
 

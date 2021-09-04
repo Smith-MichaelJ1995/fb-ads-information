@@ -216,8 +216,6 @@ print("Total Remaining Advertisers = {}".format(len(remaining)))
 #Total Advertisers Accounted For = 2371
 #Total Remaining Advertisers = 853
 
-
-
 'Home-Repair': 113
 'Health': 310
 'Food-Beverage': 112
@@ -228,8 +226,18 @@ print("Total Remaining Advertisers = {}".format(len(remaining)))
 'Interest-Group': 96
 'Entertainment': 125
 'Auto-Retail': 2000
+#Results = 3210
 
-Results = 3210
+# FB Advertisers [113] Home Repair
+# FB Advertisers [310] Health
+# FB Advertisers [112] Food-Beverage
+# FB Advertisers [111] Software
+# FB Advertisers [99] Financial
+# FB Advertisers [227] Merchandise
+# FB Advertisers [17] Insurance
+# FB Advertisers [96] Interest-Group
+# FB Advertisers [125] Entertainment
+# FB Advertisers [2000] Auto-Retail
 
 
 
@@ -252,3 +260,32 @@ Results = 3210
 #    convert_file.write(json.dumps(remaining, indent=3))
 
 
+# SCRIPT DATA
+# ' Type a list of Flows between Nodes, like:
+# '     Source [AMOUNT] Target
+# ' Examples:
+# ' Primary Data
+# FB Advertisers [113] Home Repair
+# FB Advertisers [310] Health
+# FB Advertisers [112] Food-Beverage
+# FB Advertisers [111] Software
+# FB Advertisers [99] Financial
+# FB Advertisers [227] Merchandise
+# FB Advertisers [17] Insurance
+# FB Advertisers [96] Interest-Group
+# FB Advertisers [125] Entertainment
+# FB Advertisers [2000] Auto-Retail
+
+# ' Yes/No/LOL
+# Home Repair [33] Yes
+# Home Repair [90] No
+
+# ' You can set a specific color for a Node:
+# :Taxes #CC66FF
+# '                                    ...and for a Flow:
+# ' Budget [160] Other Necessities #00CC00
+# ' Visit the 'Manual' link for more!
+
+# ' After entering your data, use the
+# ' controls below to customize your
+# ' diagram's appearance.

@@ -1,0 +1,76 @@
+Auto:
+
+Home Repair:
+
+
+Entertainment:
+
+
+Food & Beverage:
+
+Merchandise:
+"Aerie",
+"Maybelline New York",
+"Mattress Firm",
+"Merrell",
+"Mitchum Jewelers",
+"Alienware",
+"America's Tire",
+"Amazfit official store",
+"Aukey official store",
+"Baseus specialty store",
+"Caseme official store",
+"Caseme online store",
+"Essager official flagship store",
+"Fred Martin Superstore",
+"Freeland Chevy Superstore",
+"Fry's Food Stores",
+"Leif Johnson Superstore",
+"Llhg put jjfazz fation woman woman wearing store",
+"Megalith factory store",
+"Naturehike brand store",
+"Petdiary official store",
+"Ql store",
+"Runnings Stores",
+"Smith's Food and Drug Stores",
+"Solarparts store",
+"Staples Stores",
+"Tacklife official store",
+"Topk official flagship store",
+"Wish Dollar Store",
+"Wish Crazy Deals",
+"DFW Airport",
+"Tampa International Airport",
+"Washington Dulles International Airport",
+"Wish"
+
+
+Insurance:
+"Allstate"
+"Mercury Insurance",
+"biBERK Business Insurance",
+"New York Life Insurance Company",
+"Travelers Insurance",
+
+Interest Group:
+"AARP"
+"Autism Delaware",
+
+
+Software:
+"adjust.com",
+"aish.com",
+"Amazon Alexa",
+"Amazon Fashion",
+"Amazon Fire Tablets",
+"Amazon Fire TV",
+"Amazon Home",
+"Amazon Music",
+"Amazon Pets",
+"Amazon Prime Video",
+"Amazon.com",
+"Amazfit official store",
+"Roxlee.us",
+
+
+motors, chiro
